@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="jIQnRqEeWRdZ4ikNg0jE">
+    <mxGraphModel dx="1136" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Q_gNx3W7j62q6CUGdCtk-13" edge="1" parent="1" source="Q_gNx3W7j62q6CUGdCtk-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Q_gNx3W7j62q6CUGdCtk-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_gNx3W7j62q6CUGdCtk-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Retail CSV Files" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_gNx3W7j62q6CUGdCtk-14" edge="1" parent="1" source="Q_gNx3W7j62q6CUGdCtk-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Q_gNx3W7j62q6CUGdCtk-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_gNx3W7j62q6CUGdCtk-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" value="&lt;div&gt;Azure Data Lake Gen2&lt;/div&gt;&lt;div&gt;Bronze Layer&lt;/div&gt;&lt;div&gt;&lt;div&gt;customers.csv,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;orders.csv,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;payments.csv,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;products.csv&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="265" x="267.5" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_gNx3W7j62q6CUGdCtk-15" edge="1" parent="1" source="Q_gNx3W7j62q6CUGdCtk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Q_gNx3W7j62q6CUGdCtk-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_gNx3W7j62q6CUGdCtk-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Azure Data Factory&lt;/div&gt;&lt;div&gt;Copy Activities&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="337.5" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_gNx3W7j62q6CUGdCtk-16" edge="1" parent="1" source="Q_gNx3W7j62q6CUGdCtk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Q_gNx3W7j62q6CUGdCtk-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_gNx3W7j62q6CUGdCtk-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" value="Silver Layer&lt;div&gt;&lt;div&gt;customers&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;orders,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;payments&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;products&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="140" x="327.5" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_gNx3W7j62q6CUGdCtk-17" edge="1" parent="1" source="Q_gNx3W7j62q6CUGdCtk-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Q_gNx3W7j62q6CUGdCtk-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_gNx3W7j62q6CUGdCtk-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;ADF Mapping Data Flow&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;• Select&lt;/div&gt;&lt;div&gt;• Join&lt;/div&gt;&lt;div&gt;• Derived Column&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="140" x="327.5" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_gNx3W7j62q6CUGdCtk-18" edge="1" parent="1" source="US5LhuVwivkvccEt_Suz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Q_gNx3W7j62q6CUGdCtk-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_gNx3W7j62q6CUGdCtk-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" value="Gold Layer&lt;div&gt;&lt;div&gt;Gold_Customers,&lt;/div&gt;&lt;div&gt;Gold_Orders&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Gold_Payments,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Gold_Product&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Customer_Order_Pay&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="270" x="262.5" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_gNx3W7j62q6CUGdCtk-19" edge="1" parent="1" source="Q_gNx3W7j62q6CUGdCtk-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Q_gNx3W7j62q6CUGdCtk-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_gNx3W7j62q6CUGdCtk-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" value="Azure SQL Database" vertex="1">
+          <mxGeometry height="60" width="120" x="337.5" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_gNx3W7j62q6CUGdCtk-20" edge="1" parent="1" source="Q_gNx3W7j62q6CUGdCtk-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Q_gNx3W7j62q6CUGdCtk-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_gNx3W7j62q6CUGdCtk-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Data Warehouse&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;DimCustomer&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;|&lt;/div&gt;&lt;div&gt;DimProduct -- FactSales -- DimPayment&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="252.5" x="271.25" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_gNx3W7j62q6CUGdCtk-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" value="Power BI Dashboard" vertex="1">
+          <mxGeometry height="60" width="120" x="337.5" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="US5LhuVwivkvccEt_Suz-2" edge="1" parent="1" source="Q_gNx3W7j62q6CUGdCtk-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="US5LhuVwivkvccEt_Suz-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="640" as="sourcePoint" />
+            <mxPoint x="380" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="US5LhuVwivkvccEt_Suz-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="PL_Gold_To_SQL_Load" vertex="1">
+          <mxGeometry height="30" width="70" x="362.5" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="US5LhuVwivkvccEt_Suz-7" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Retail Data Engineering Pipeline on Azure&lt;/span&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="120" width="490" x="190" y="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
